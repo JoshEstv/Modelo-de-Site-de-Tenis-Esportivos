@@ -43,6 +43,8 @@
 
     .card img {
       width: 100%;
+      max-height: 200px;
+      object-fit: cover;
       border-radius: 8px;
     }
 
@@ -78,13 +80,16 @@
     }
 
     footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-      font-size: 14px;
-    }
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
   </style>
 </head>
 <body>
@@ -94,7 +99,7 @@
 
   <main class="produtos">
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" alt="Tênis Modelo 1">
+      <img src="https://images.unsplash.com/photo-1634624943287-6e1f2d103201?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Tênis Branco Esportivo">
       <h3>Tênis Runner X</h3>
       <p class="preco">R$ 299,90</p>
       <p>Leve, confortável e ideal para corridas diárias.</p>
@@ -102,7 +107,7 @@
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" alt="Tênis Modelo 2">
+      <img src="https://images.unsplash.com/photo-1706795174638-d12b6700dc95?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&ixlib=rb-4.1.0&q=60&w=3000" alt="Tênis Cano Alto">
       <h3>Tênis Street Pro</h3>
       <p class="preco">R$ 349,90</p>
       <p>Estilo urbano com tecnologia esportiva.</p>
@@ -110,7 +115,7 @@
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" alt="Tênis Modelo 3">
+      <img src="https://images.unsplash.com/photo-1634624943296-54ce51cf732c?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Tênis Jordan Cano Baixo">
       <h3>Tênis AirFlex</h3>
       <p class="preco">R$ 399,90</p>
       <p>Amortecimento avançado para máximo desempenho.</p>
@@ -123,4 +128,3 @@
   </footer>
 </body>
 </html>
-
